@@ -16,7 +16,7 @@
 title: Charlie's Miscellany
 author: Charlie Vorbach
 description: Blog at the intersection of elegant computing, data science, and robotics.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://charliea0.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en-US
 timezone: EST

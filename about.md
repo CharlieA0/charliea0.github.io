@@ -4,10 +4,6 @@ title: "About"
 permalink: /about/
 ---
 
-Welcome to my miscellany!
-
-## About Me
-
 I am Charlie Vorbach. I'm an undergraduate at MIT studying computer science and electrical engineering. I love puzzle-solving, mathematics, and elegant code.
 
 This site is latest reincarnation of my portfolio of programming projects and blog posts. It may take me some time to move everything here, but I am hopeful that Jekyll and GitHub pages will ultimately more stable and easier to maintain than an EC2 LAMP stack.

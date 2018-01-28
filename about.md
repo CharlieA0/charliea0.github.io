@@ -31,19 +31,19 @@ In any case, please bear with me as I learn this new platform. Also, please chec
 
 ## A Few Favorite Books
 
-Accelerated C++: Practical Programming by Example, Andrew Koenig and‎ Barbara E. Moo
+*Accelerated C++: Practical Programming by Example*, Andrew Koenig and‎ Barbara E. Moo
 
-Eloquent JavaScript, Marijn Haverbeke
+*Eloquent JavaScript*, Marijn Haverbeke
 
-Make: AVR Programming, Elliot Williams
+*Make: AVR Programming*, Elliot Williams
 
-Chaos: Making a New Science, James Gleick
+*Chaos: Making a New Science*, James Gleick
 
-The Great Explorers, Samuel Eliot Morison
+*The Great Explorers*, Samuel Eliot Morison
 
-A Connecticut Yankee in King Arthur's Court, Mark Twain
+*A Connecticut Yankee in King Arthur's Court*, Mark Twain
 
-Dracula, Bram Stoker
+*Dracula*, Bram Stoker
 
 ## F.A.Q. (The Original)
 *I don't know who you are, but you seem to want to know about me. To save you the trouble of finding my facebook, here is a quick Q & A.*

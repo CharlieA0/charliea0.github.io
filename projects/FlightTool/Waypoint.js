@@ -7,7 +7,7 @@
      * Written by Charlie Vorbach 
      * MIT License
      * 
-     * Bewarned, this is an uncommented, nightmare-workaround kludge. Proceed at your own risk.
+     * Be forewarned, this is an uncommented, nightmare-workaround kludge. Proceed at your own risk.
      *  -----Strike that------ This is now extensively commented. While it may still contain a few 'quirks' it shouldn't be too hard to follow.
      */
 
@@ -22,6 +22,9 @@
 
     const COOR_PRECIS = 6;
     const OTHER_PRECIS = 1;
+
+    //Set Bing Maps Key
+    Cesium.BingMapsApi.defaultKey  = "ArVqIQxOq9u9AVP9h1DrNWL341XM4BgtuuzUGs7l_IkxUzg6Z_jVhv5i_jbPJrcR";
 
     //Globals
     var viewer = new Cesium.Viewer('cesiumContainer');

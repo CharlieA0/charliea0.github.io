@@ -4,8 +4,6 @@ title: "Open the pod bay doors, HAL Emulation"
 categories: projects
 ---
 
-# New Race Car project !!!
-
 Hey-y'all! I wanted to share a real MIT FSAE project emulating the STM32f413's HAL libraries. Our team switched from LPC to STM32 microcontrollers this year. We've also pushed to write many more unit tests and maybe even move toward automated build testing.
 
 Our problem is that unit testing code for microcontrollers is hard. Our projects run on systems with very limited resources, restricted input/out, and dependent on the physical boards the microcontrollers are part of. This makes running tests on hardware slow, tricky to interpret, and hard to setup. 

@@ -78,7 +78,9 @@ A few years ago, I ran a fun research project in plasma physics. I built an Iner
 
 Also here is a picture and the research paper I wrote.
 
+![Fusor Photo](/assets/fusorSetup.jpg)
 
+[IEC Fusion Research Report](/assets/fusor_paper.pdf)
 
 __Tell us a joke.__
 

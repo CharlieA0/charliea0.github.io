@@ -4,12 +4,14 @@
 .site-header {
   min-height: 56px;
 
+  margin-top: 15px;
+
   // Positioning context for the mobile navigation icon
   position: relative;
 }
 
 .site-title {
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 300;
   line-height: 56px;
   letter-spacing: -1px;
@@ -27,7 +29,7 @@
   line-height: 56px;
 
   .page-link {
-    color: $text-color;
+    color: $grey-color-darker;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -148,12 +150,12 @@
 }
 
 .post-title {
-  font-size: 42px;
+  font-size: 38px;
   letter-spacing: -1px;
   line-height: 1;
 
   @include media-query($on-laptop) {
-    font-size: 36px;
+    font-size: 32px;
   }
 }
 
@@ -161,34 +163,34 @@
   margin-bottom: $spacing-unit;
 
   h1 {
-    font-size: 38px;
+    font-size: 34px;
 
     @include media-query($on-laptop) {
-      font-size: 34px;
+      font-size: 30px;
     }
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 28px;
 
     @include media-query($on-laptop) {
-      font-size: 28px;
+      font-size: 24px;
     }
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 22px;
 
     @include media-query($on-laptop) {
-      font-size: 22px;
+      font-size: 18px;
     }
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 16px;
 
     @include media-query($on-laptop) {
-      font-size: 18px;
+      font-size: 14px;
     }
   }
 }

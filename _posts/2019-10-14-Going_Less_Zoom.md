@@ -29,7 +29,7 @@ Leaves are turning, midterms are looming, and that means racecar is back in sess
 MIT Driverless is a really exciting project and I definitely plan to have updates on my vehicle modelling and controls work with them. For the moment though, I really want to document my power limiting work for Motorsports's Electric team.
 
 
-"What is power limiting," you ask. "Don't you want to use more power?" More power is more acceleration is faster lap times. A major goal of the team this year is to increase the rms power output from 15 kW to 25 kW. This requires a big technical leap to liquid battery cooling and is an exciting project for the battery team. 
+"What is power limiting," you ask. "Don't you want to use more power?" More power is more acceleration is faster lap times. A major goal of the team this year is to increase the root-mean-square power output from 15 kW to 25 kW. This requires a big technical leap to liquid battery cooling and is an exciting project for the battery team. 
 
 My job is to limit peak power. Our rules require us to draw no more 80 kW from the battery. At competition, the EE judge Dan Bocci actually installs a custom e-meter into the high voltage system to monitor compliance. In 2018, our racecar exceeded the limit for about 5 milliseconds off the line - enough to get us dequeued from the endurance event. It was real blow to the points total that year.
 

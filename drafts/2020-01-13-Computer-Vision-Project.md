@@ -4,37 +4,50 @@ title: "Cameras something, something mumble..."
 categories: FSAE
 ---
 
-It has been
+I'm probably the n+1th person to mention the past weeks have been crazy.
+A global pandemic and US recession tend to make for extrodinary times.
+I so appreciate the incredible efforts of our medical responders, essential
+worker,
 
-Well, it has been a wild semester. Between my MIT Driverless's commitments, MIT (Not-Driverless) Motorsports power limiting role, and classes my free time has been a bit non-existent.
+I thought I would post a write-up of a project I really enjoyed from last
+semester. I had the privilege to that my first graduate class, MIT's 6.869
+Advances in Computer Vision.
 
-I'm not complaining, just apologising to you, my loyal (and I suspect non-existent) readers for lack of content. Every year I pledge to post more and every year I get so caught up in projects that I fail to do so.
+I can't recommend the class highly enough. It is basically two professors
+presenting the papers they feel were most signficant in the past 20 years.
+The workload is relatively light for a graduate class. It is entirely project-
+focused with no exams. The weekly psets implement work from the covered papers
+and a final project is 40% of the grade.
 
-Still, I would like to post a couple of things. Next semester is also when I will fulfill my technical writing requirements so maybe that will help keep me on track? What do they say about insanity and expecting a different result.
+Suprisingly for me, the course wasn't exclusively machine-learning based.
+The first half of the course gave an in-depth overview of camera models, epipolar geometry,
+graphical networks, filters, and other topics I had relatively little experience
+with.
 
-Alright, a quick summary of cool things which happened this semester.
+I really enjoyed these topics and they helped frame the machine learning in the second half.
 
-At Driverless, I was elevated to controls lead after the inestimable Allen Wang died.. passed into the unholy corporate veil.. err... I mean graduated.
+Continuing my tradition of being more interested in clever math than machine
+learning. I decided to work on a non-ML final project.
 
-Taking on a technical leadership role has been really really fun. I have a personal sort of perfectionism that just loves being able to organize and build a single system and constantly work and tweak it.
+Specifically, I wanted to try stereo auto-calibration for MIT's Driverless race car.
+Sensor calibration has been a consistent pain point for our team. For stereo-vision,
+it requires running a matlab script while carefully moving special calibration boards.
 
-Managing other engineers has also been really fun. I've got a bit of experience with this from the scouts and high school teams but still a relatively new experience. It is incredible fulfilling to be able to work with and manage such incredibly capable and talented engineers (many of whom are more proficient than me).
+![He looks happy, right?](/assets/calibration-targets.png)
 
-I've been trying to improve my game listening to Andy Groves
+This calibration procedure is labor intensive and can eat up a lot of our valuable testing time at Delft. Even worse, our stereo pair's mounts are 3D-printed and so not perfectly rigid.
+(I owe Driverless's mechanical team a dirty look for that decision).
 
-I also had an opportunity to take MIT's 6.869 Advances in Computer Vision. This was my first graduate level class and it was so much fun.
+We have found the camera pair's extrinsic calibration drifts over time, especially under high accelerations while racing. This means our statically determined calibration becomes progressively less accurate.
+At Valkenburg in Delft, we have had to pause testing and recalibrate - wasting time.
 
-I really can't recommend the course enough. It basically is two professors presenting papers they think were significant in the past 20 years.
+Believing this current process was metamorphic schist, my goal for the 6.869 project
+was to build an autocalibration procedure. The idea is to have a ROS node constantly
+running that can update the calibration even as the cameras shift.
 
-The work load is very light for a graduate class. There are no exams. It is entirely project-focuesed. The grade is 60% problem sets and 40% the final project.
+I'll provide a summary, but if you want to read the whole project report it is
+[here](/assets/6_869_Final_Report.pdf).
 
-As much as you might think that the class is entirely machine learning dominiated (and admittedly the entire second half is dominated by that) it also provides a really solid understanding of the earlier CV things. We cover camera models and epipolar geometry of course.
-
-The class textbook is also epic - the Muliview Geometry by XXXXXX XXXXXX.
-
-Any way, I was very proud of my final project. Completed with my good friend Max Tell, we worked on the problem of estimating camera calibrations from natural images. (A useful topic for a Driverless).
-
-How to wrap python.
 
 
 

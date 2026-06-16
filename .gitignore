@@ -1,5 +1,17 @@
-_site
-.sass-cache
+# Local Node artifacts; this site currently builds with Ruby/Jekyll.
+node_modules/
+package.json
+package-lock.json
+
+# Jekyll build output and local caches.
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
+
+# Bundler local install path, if configured with `bundle config set path`.
+.bundle/
+vendor/bundle/
+
+# Editor/indexing artifacts.
 tags
-*.swp

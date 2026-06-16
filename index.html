@@ -1,6 +1,12 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit whiteglass' home layout instead if you want to make some changes.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+
+{% capture intro %}
+I’m Charlie Vorbach. I am senior research engineer who teaches self-driving cars to imitate human drivers.
+
+This is a very old portfolio that I've resurrected with modern vibe-coding.
+
+{% endcapture %}
+
+{{ intro | markdownify }}

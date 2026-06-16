@@ -271,7 +271,7 @@
             document.getElementById('Latitude').value = waypoint.latitude.toFixed(COOR_PRECIS);
             document.getElementById('Longitude').value = waypoint.longitude.toFixed(COOR_PRECIS);
             document.getElementById('Altitude').value = (waypoint.height !== undefined) ? waypoint.height.toFixed(OTHER_PRECIS) : "";
-            document.getElementById('Radius').value = (waypoint.raduis !== undefined) ? waypoint.raduis.toFixed(OTHER_PRECIS) : "";
+            document.getElementById('Radius').value = (waypoint.radius !== undefined) ? waypoint.radius.toFixed(OTHER_PRECIS) : "";
         }
         else {
             clearWaypointControls();
@@ -359,8 +359,8 @@
         var height = parseFloat(document.getElementById('Altitude').value);
         waypoint.height = (!isNaN(height) && height > 1) ? height : 1;
 
-        var raduis = parseFloat(document.getElementById('Radius').value);
-        waypoint.raduis = (!isNaN(raduis)) ? raduis : DEFAULT_RADIUS;
+        var radius = parseFloat(document.getElementById('Radius').value);
+        waypoint.radius = (!isNaN(radius)) ? radius : DEFAULT_RADIUS;
 
         //Update position
         waypoint.position = Cesium.Cartesian3.fromDegrees(waypoint.longitude, waypoint.latitude,waypoint.height);
@@ -368,7 +368,7 @@
         //Update infobox
         waypoint.description = "Command: " + String(waypoint.command) + "<br> Latitude: " + waypoint.latitude.toFixed(COOR_PRECIS) + 
             "<br> Longitude: " + waypoint.longitude.toFixed(COOR_PRECIS)   + "<br> Altitude: " + waypoint.height.toFixed(OTHER_PRECIS) + 
-            "<br> Radius: " + waypoint.raduis.toFixed(COOR_PRECIS);
+            "<br> Radius: " + waypoint.radius.toFixed(COOR_PRECIS);
      }
 
 

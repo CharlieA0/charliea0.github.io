@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "FSAE Lincoln Photos"
-categories: FSAE
+categories: fsae
 ---
 
 I just wanted to share some photos from MIT Motorsports trip to Formula Student Lincoln. It was a crazy week of last-minute fixes and long hours on the car. Working with an amazing team made it fun and unforgettable. 

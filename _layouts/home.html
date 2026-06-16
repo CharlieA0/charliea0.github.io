@@ -8,6 +8,8 @@ layout: default
 
   {% capture site_lang %}{{ site.lang | default: "en" }}{% endcapture %}
 
+  <h2 class="home-section-heading">Posts</h2>
+
   <ul class="post-list">
     {% for post in paginator.posts %}
       {% capture post_lang %}{{ post.lang | default: site_lang }}{% endcapture %}

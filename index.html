@@ -3,10 +3,11 @@ layout: home
 ---
 
 {% capture intro %}
-I’m Charlie Vorbach. I am senior research engineer who teaches self-driving cars to imitate human drivers.
-
-This is a very old portfolio that I've resurrected with modern vibe-coding.
+I teach cars to drive at NVIDIA. I’m interested in large-scale imitation and reinforcement learning.
 
 {% endcapture %}
 
-{{ intro | markdownify }}
+<section class="home-intro" aria-labelledby="home-intro-heading">
+  <h1 id="home-intro-heading">Hi, I’m Charlie Vorbach.</h1>
+  {{ intro | markdownify }}
+</section>

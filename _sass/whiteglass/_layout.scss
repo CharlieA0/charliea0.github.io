@@ -75,6 +75,32 @@
   font-size: 20px;
 }
 
+.home-intro {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+
+  h1 {
+    margin-bottom: $spacing-unit / 2;
+    font-size: 36px;
+    line-height: 1.15;
+  }
+
+  p {
+    margin-bottom: $spacing-unit / 2;
+    font-size: $base-font-size;
+    line-height: 1.45;
+  }
+}
+
+.home-section-heading {
+  margin-bottom: $spacing-unit;
+  padding-top: $spacing-unit;
+  border-top: 1px solid $grey-color-light;
+  font-size: 18px;
+  color: $grey-color;
+  text-transform: uppercase;
+}
+
 .post-list {
   margin-left: 0;
   list-style: none;
